@@ -57,7 +57,7 @@
 ***
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/imgs/JPGs/screenshot-2.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/labs/screenshots/jpgs/screenshot-2.jpg)
-###### **_IBM's Qiskit_** Global Summer School 2023: Theory To Implementation - Lab's Screenshot #1
+###### **_IBM's Qiskit_** Global Summer School 2023: Theory To Implementation - Lab's Screenshot #2
 
 ***
 
