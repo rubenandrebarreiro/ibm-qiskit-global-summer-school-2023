@@ -73,8 +73,15 @@
   * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-5-phase-estimation-and-factoring.pdf)
 * #### Lecture 6: Quantum Computing Hardware & Superconducting Circuits 📚
   * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-6-quantum-computing-hardware-&-superconducting-circuits.pdf)
-* #### Lecture 7: Introduction to Noise 📚
-* #### Lecture 8: Iterative Quantum Phase Estimation and Quantum Variational Eigensolver 📚
+* #### Lecture 7: Introduction to Quantum Noise 📚
+  * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-7-introduction-to-quantum-noise.pdf)
+  * Bonus Content - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-7-introduction-to-quantum-noise-bonus-content.pdf)
+  * Coherent Error: ZZ \[Bonus\] - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-7-bonus-coherent-error-zz.pdf)
+  * Digital Quantum Circuits (Pictorial) \[Bonus\] - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-7-bonus-zlakto-minev-cheat-sheet-t11-7-pictorial.pdf)
+  * Estimating Observables From Sampled Bit Strings \[Bonus\] - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-7-bonus-zlakto-minev-t21-estimating-bitstring.pdf)
+* #### Lecture 8: Iterative Quantum Phase Estimation and Variational Quantum Eigensolver 📚
+  * Lecture 8.1: Iterative Quantum Phase Estimation: Moving Beyond Traditional QPE - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-8.1-iterative-quantum-phase-estimation-moving-beyond-traditional-qpe.pdf)
+  * Lecture 8.2: Variational Quantum Eigensolver - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-8.2-variational-quantum-eigensolver.pdf)
 * #### Lecture 9: Noise Mitigation 📚
   * Lecture 9.1: Noise Mitigation - Part 1 - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-9.1-noise-mitigation-part-1.pdf)
   * Lecture 9.2: Noise Mitigation - Part 2 - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-9.2-noise-mitigation-part-2.pdf)
