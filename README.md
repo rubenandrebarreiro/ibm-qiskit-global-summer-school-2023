@@ -1,1 +1,1 @@
-# ibm-qiskit-global-summer-school-2023
+# IBM's Qiskit Global Summer School 2023
