@@ -5,7 +5,7 @@
 
 * #### Lab 1: Qiskit 101 ✅
   * In the first lab, we will explore different ways of representing and manipulating quantum states using IBM's Qiskit, based on the quantum theory you learned in the first three lectures. We will cover important IBM's Qiskit classes, including Operator, Statevector, and QuantumCircuit, and learn how to use them to perform deterministic, probabilistic, and unitary operations. Lastly, we'll cover different ways of measuring quantum states using IBM's Qiskit.
-  * Check it here: [Jupyter Notebook]() | [HTML]()
+  * Check it here: [Jupyter Notebook](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/labs/jupyter-notebooks/lab-1-qiskit-101.ipynb) | [HTML](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/labs/htmls/lab-1-qiskit-101.html)
 
 * #### Lab 2: Creating Entanglement with Qiskit ✅
   * In this lab, we explore interesting properties of entangled qubits. However, we first will explore the Sampler and Estimator primitives to measure quasi-probability distributions (related to counts) and expectations of an observable, respectively. We then use the Estimator to measure one observable that violates the CHSH inequality, thereby disproving local hidden variable theories. Next, we build a quantum state and teleport it by entangling it with a shared resource, using the Sampler to show that we obtain the same quasi-probabilities by measuring both the prepared state and the teleported state.
