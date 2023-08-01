@@ -1,8 +1,8 @@
 # IBM's Qiskit Global Summer School 2023:
-## Theory To Implementation
+## Theory to Implementation
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/imgs/jpgs/banner-1.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/imgs/jpgs/banner-1.jpg)
-###### **_IBM's Qiskit_** Global Summer School 2023: Theory To Implementation - Banner #1
+###### **_IBM's Qiskit_** Global Summer School 2023: Theory to Implementation - Banner #1
 
 ***
 
@@ -52,16 +52,16 @@
 ## Screenshots
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/imgs/JPGs/screenshot-1.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/labs/screenshots/jpgs/screenshot-1.jpg)
-###### **_IBM's Qiskit_** Global Summer School 2023: Theory To Implementation - Labs' Screenshot #1
+###### **_IBM's Qiskit_** Global Summer School 2023: Theory to Implementation - Labs' Screenshot #1
 
 ***
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/imgs/JPGs/screenshot-2.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/labs/screenshots/jpgs/screenshot-2.jpg)
-###### **_IBM's Qiskit_** Global Summer School 2023: Theory To Implementation - Lab's Screenshot #2
+###### **_IBM's Qiskit_** Global Summer School 2023: Theory to Implementation - Lab's Screenshot #2
 
 ***
 
-## Contents of IBM's Qiskit Global Summer School 2023 - Theory To Implementation:
+## Contents of IBM's Qiskit Global Summer School 2023 - Theory to Implementation:
 
 ### Lectures:
 
