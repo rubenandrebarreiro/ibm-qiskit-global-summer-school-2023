@@ -1,5 +1,5 @@
 # IBM's Qiskit Global Summer School 2023:
-## Theory to Implementation
+## Theory To Implementation
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/imgs/JPGs/banner-1.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/master/imgs/jpgs/banner-1.jpg)
 ###### **_IBM's Qiskit_** Global Summer School 2023: Theory To Implementation - Banner #1
