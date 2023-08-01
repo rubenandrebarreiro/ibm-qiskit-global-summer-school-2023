@@ -43,7 +43,7 @@
 
 > **IMPORTANT**
 >
-> ##### &nbsp;&nbsp;&#8226; The lectures occurred online in the [CrowdCast](https://www.crowdcast.io/) streaming platform, between July 17, 2023, and July 28, 2023. ⚠️
+> ##### &nbsp;&nbsp;&#8226; The lectures occurred online in the [CrowdCast](https://www.crowdcast.io/) streaming platform,<br>&nbsp;&nbsp;&nbsp;&nbsp;between July 17, 2023, and July 28, 2023. ⚠️
 >
 > ##### &nbsp;&nbsp;&#8226; The labs were solved online in the [IBM Quantum Challenges: Qiskit Global<br>&nbsp;&nbsp;&nbsp;&nbsp;Summer School 2023](https://www.challenges.quantum-computing.ibm.com/qgss-202) platform, between July 27, 2023, and July 31, 2023. ⚠️
 
