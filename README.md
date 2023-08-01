@@ -41,6 +41,9 @@
 
 > The [**_IBM's Qiskit Global Summer School 2023_**](https://www.qiskit.org/events/summer-school-2023/) from [**_IBM Quantum_**](https://www.quantum-computing.ibm.com/) is a two-week intensive summer program designed to empower the quantum researchers and developers of tomorrow with the know-how to explore the world of quantum computing, as well as refresh and sharpen the industry professional's skills. This fourth-annual summer school will focus foundationally on quantum computing by taking a **back-to-basics** approach, with a look at making the **transition** from **theory to implementation**.
 
+> The lectures occurred online in the [CrowdCast](https://www.crowdcast.io/) streaming platform, between July 17, 2023, and July 28, 2023.
+> The labs were solved online in the [IBM Quantum Challenges: Qiskit Global Summer School 2023](https://challenges.quantum-computing.ibm.com/qgss-202) platform, between July 27, 2023, and July 31, 2023.
+
 ***
 
 ## Screenshots
