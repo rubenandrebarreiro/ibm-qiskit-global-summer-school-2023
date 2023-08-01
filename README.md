@@ -147,10 +147,9 @@ git clone git@github.com:rubenandrebarreiro/ibm-qiskit-global-summer-school-2023
 
 ## Built with
 * [**_Jupyter Notebook_**](https://www.jupyter.org/)
-* [**_Java_**](http://www.java.com/)
-* [**_Bouncy Castle library_**](https://www.bouncycastle.org/)
-* [**_TeX_**](https://tug.org/texlive/)
-
+* [**_Python_**](http://www.python.org/)
+* [**_Qiskit_**](https://www.qiskit.org/)
+* [**_IBM Quantum_**](https://www.quantum-computing.ibm.com/)
 
 ## Contributors
 
