@@ -55,7 +55,33 @@
 
 ***
 
-### Content of IBM's Qiskit Global Summer School 2023 - Theory To Implementation:
+## Contents of IBM's Qiskit Global Summer School 2023 - Theory To Implementation:
+
+### Lectures:
+
+* #### Lecture 1: Single and Multiple States 📚
+  * Lecture 1.1: Single States - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-1.1-single-states.pdf)
+  * Lecture 1.2: Multiple States - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-1.2-multiple-states.pdf)
+* #### Lecture 2: Quantum Circuits 📚
+  * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-2-quantum-circuits.pdf)
+* #### Lecture 3: Entanglement in Action 📚
+  * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-3-entanglement-in-action.pdf)
+* #### Lecture 4: Quantum Algorithms and its Foundations 📚
+  * Lecture 4.1: Quantum Query Algorithms - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-4.1-quantum-query-algorithms.pdf)
+  * Lecture 4.2: Foundations of Quantum Algorithms - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-4.2-foundations-of-quantum-algorithms.pdf)
+* #### Lecture 5: Phase Estimation and Factoring 📚
+  * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-5-phase-estimation-and-factoring.pdf)
+* #### Lecture 6: Quantum Computing Hardware & Superconducting Circuits 📚
+  * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-6-quantum-computing-hardware-&-superconducting-circuits.pdf)
+* #### Lecture 7: Introduction to Noise 📚
+* #### Lecture 8: Iterative Quantum Phase Estimation and Quantum Variational Eigensolver 📚
+* #### Lecture 9: Noise Mitigation 📚
+  * Lecture 9.1: Noise Mitigation - Part 1 - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-9.1-noise-mitigation-part-1.pdf)
+  * Lecture 9.2: Noise Mitigation - Part 2 - Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/lecture-9.2-noise-mitigation-part-2.pdf)
+* #### Closing Talk: How to be a Mentor? 📚
+  * Check it here: [PDF](https://github.com/rubenandrebarreiro/ibm-qiskit-global-summer-school-2023/blob/main/lectures/pdfs/closing-talk-how-to-be-a-mentor.pdf)
+
+### Labs:
 
 * #### Lab 1: Qiskit 101 ✅
   * In the first lab, we will explore different ways of representing and manipulating quantum states using IBM's Qiskit, based on the quantum theory you learned in the first three lectures. We will cover important IBM's Qiskit classes, including Operator, Statevector, and QuantumCircuit, and learn how to use them to perform deterministic, probabilistic, and unitary operations. Lastly, we'll cover different ways of measuring quantum states using IBM's Qiskit.
