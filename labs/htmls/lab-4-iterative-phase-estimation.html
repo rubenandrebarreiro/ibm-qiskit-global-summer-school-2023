@@ -14797,7 +14797,7 @@ $$</p>
     <span class="n">qc</span><span class="o">.</span><span class="n">x</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the theta angle equal to pi,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the theta angle equal to pi,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span> <span class="p">)</span>
     
@@ -14994,7 +14994,7 @@ Congratulations 🎉! Your answer is correct and has been submitted.
         <span class="n">qc</span><span class="o">.</span><span class="n">p</span><span class="p">(</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span> <span class="p">)</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the theta angle equal to pi / 2,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the theta angle equal to pi / 2,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span> <span class="p">)</span>
     
@@ -15270,7 +15270,7 @@ $$ T =
     <span class="n">qc</span><span class="o">.</span><span class="n">x</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the theta angle equal to pi,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the theta angle equal to pi,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span> <span class="p">)</span>
     
@@ -15301,7 +15301,7 @@ $$ T =
         <span class="n">qc</span><span class="o">.</span><span class="n">p</span><span class="p">(</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span> <span class="p">)</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the theta angle equal to pi / 2,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the theta angle equal to pi / 2,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span> <span class="p">)</span>
     
@@ -15332,7 +15332,7 @@ $$ T =
         <span class="n">qc</span><span class="o">.</span><span class="n">p</span><span class="p">(</span><span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the theta angle equal to pi / ,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the theta angle equal to pi / ,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span> <span class="p">)</span>
     
@@ -15590,13 +15590,13 @@ $$<p>In practice we work with a fixed number of bits of precision, so our goal i
     <span class="n">k</span> <span class="o">=</span> <span class="mi">1</span>
     
     
-    <span class="c1"># define the theta angle of the Controlled-U gate,</span>
+    <span class="c1"># define the theta angle of the Controlled-Phase gate,</span>
     <span class="c1"># according to the current iteration of</span>
     <span class="c1"># the Iterative Phase Estimation (IPE) of the U gate</span>
     <span class="n">cphase_angle</span> <span class="o">=</span> <span class="n">u_angle</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">k</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the kth theta angle,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the kth theta angle,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">cphase_angle</span><span class="p">,</span> <span class="n">q0</span><span class="p">,</span> <span class="n">q1</span> <span class="p">)</span>
     
@@ -15622,7 +15622,7 @@ $$<p>In practice we work with a fixed number of bits of precision, so our goal i
     <span class="c1"># the Iterative Phase Estimation (IPE) of the U gate</span>
     <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span>
     
-    <span class="c1"># define the theta angle of the Controlled-U gate,</span>
+    <span class="c1"># define the theta angle of the Controlled-Phase gate,</span>
     <span class="c1"># according to the current iteration of</span>
     <span class="c1"># the Iterative Phase Estimation (IPE) of the U gate</span>
     <span class="n">cphase_angle</span> <span class="o">=</span> <span class="n">u_angle</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">k</span>
@@ -15637,7 +15637,7 @@ $$<p>In practice we work with a fixed number of bits of precision, so our goal i
         <span class="n">qc</span><span class="o">.</span><span class="n">p</span><span class="p">(</span> <span class="o">-</span><span class="n">cphase_angle</span><span class="p">,</span> <span class="n">q0</span> <span class="p">)</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the kth theta angle,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the kth theta angle,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">cphase_angle</span><span class="p">,</span> <span class="n">q0</span><span class="p">,</span> <span class="n">q1</span> <span class="p">)</span>
     
@@ -15773,8 +15773,8 @@ class="
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;10&#39;: 177, &#39;00&#39;: 57, &#39;01&#39;: 766}
-Success probability: 0.766
+<pre>{&#39;10&#39;: 190, &#39;00&#39;: 53, &#39;01&#39;: 757}
+Success probability: 0.757
 </pre>
 </div>
 </div>
@@ -15850,13 +15850,13 @@ Success probability: 0.766
     <span class="n">k</span> <span class="o">=</span> <span class="mi">1</span>
     
     
-    <span class="c1"># define the theta angle of the Controlled-U gate,</span>
+    <span class="c1"># define the theta angle of the Controlled-Phase gate,</span>
     <span class="c1"># according to the current iteration of</span>
     <span class="c1"># the Iterative Phase Estimation (IPE) of the U gate</span>
     <span class="n">cphase_angle</span> <span class="o">=</span> <span class="n">u_angle</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">k</span>
     
     
-    <span class="c1"># apply the Controlled-U gate for the kth theta angle,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the kth theta angle,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">cphase_angle</span><span class="p">,</span> <span class="n">q0</span><span class="p">,</span> <span class="n">q1</span> <span class="p">)</span>
     
@@ -15975,7 +15975,7 @@ class="
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;0&#39;: 2, &#39;1&#39;: 13}
+<pre>{&#39;0&#39;: 7, &#39;1&#39;: 8}
 </pre>
 </div>
 </div>
@@ -16199,13 +16199,13 @@ Congratulations 🎉! Your answer is correct and has been submitted.
     <span class="n">k</span> <span class="o">=</span> <span class="mi">1</span>
     
     
-    <span class="c1"># define the theta angle of the Controlled-U gate,</span>
+    <span class="c1"># define the theta angle of the Controlled-Phase gate,</span>
     <span class="c1"># according to the current iteration of</span>
     <span class="c1"># the Iterative Phase Estimation (IPE) of the U gate</span>
     <span class="n">cphase_angle</span> <span class="o">=</span> <span class="n">u_angle</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">k</span>
 
 
-    <span class="c1"># apply the Controlled-U gate for the kth theta angle,</span>
+    <span class="c1"># apply the Controlled-Phase gate for the kth theta angle,</span>
     <span class="c1"># with control on the 1st qubit and target on the 2nd qubit</span>
     <span class="n">qc</span><span class="o">.</span><span class="n">cp</span><span class="p">(</span> <span class="n">cphase_angle</span><span class="p">,</span> <span class="n">q0</span><span class="p">,</span> <span class="n">q1</span> <span class="p">)</span>
     
@@ -16478,7 +16478,7 @@ Success probability: 1.0
     <span class="c1">####### your code goes here #######</span>
     
     <span class="c1"># retrieve the number of the Controlled-U gates</span>
-    <span class="n">m</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">controlled_unitaries</span><span class="p">)</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span> <span class="n">controlled_unitaries</span> <span class="p">)</span>
     
     
     <span class="c1"># create a copy of the list of the Controlled-U gates</span>
@@ -16591,7 +16591,7 @@ Success probability: 1.0
 <span class="n">z_angle</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span>
 
 
-<span class="c1"># create the list of Controlled-U gates,</span>
+<span class="c1"># create the list of Controlled-U/Controlled-Phases gates,</span>
 <span class="c1"># considering the theta angle for the Z gate</span>
 <span class="n">controlled_unitaries</span> <span class="o">=</span> <span class="p">[</span> <span class="n">CPhaseGate</span><span class="p">(</span> <span class="n">z_angle</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">k</span> <span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">]</span>
 
@@ -16692,7 +16692,7 @@ Success probability: 1.0
 <span class="n">s_angle</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">2</span>
 
 
-<span class="c1"># create the list of Controlled-U gates,</span>
+<span class="c1"># create the list of Controlled-U/Controlled-Phase gates,</span>
 <span class="c1"># considering the theta angle for the S gate</span>
 <span class="n">controlled_unitaries</span> <span class="o">=</span> <span class="p">[</span> <span class="n">CPhaseGate</span><span class="p">(</span> <span class="n">s_angle</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">k</span> <span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">]</span>
 
@@ -16793,7 +16793,7 @@ Success probability: 1.0
 <span class="n">t_angle</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">4</span>
 
 
-<span class="c1"># create the list of Controlled-U gates,</span>
+<span class="c1"># create the list of Controlled-U/Controlled-Phase gates,</span>
 <span class="c1"># considering the theta angle for the T gate</span>
 <span class="n">controlled_unitaries</span> <span class="o">=</span> <span class="p">[</span> <span class="n">CPhaseGate</span><span class="p">(</span> <span class="n">t_angle</span> <span class="o">*</span> <span class="mi">2</span><span class="o">**</span><span class="n">k</span> <span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="p">]</span>
 
@@ -16896,21 +16896,21 @@ Success probability: 1.0
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># define the hub for the IBM&#39;s Qiskit Provider</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># define the hub for the IBM&#39;s Provider</span>
 <span class="n">hub</span> <span class="o">=</span> <span class="s2">&quot;summer-school-6&quot;</span>
 
-<span class="c1"># define the group for the IBM&#39;s Qiskit Provider</span>
+<span class="c1"># define the group for the IBM&#39;s Provider</span>
 <span class="n">group</span> <span class="o">=</span> <span class="s2">&quot;group-3&quot;</span>
 
-<span class="c1"># define the project for the IBM&#39;s Qiskit Provider</span>
+<span class="c1"># define the project for the IBM&#39;s Provider</span>
 <span class="n">project</span> <span class="o">=</span> <span class="s2">&quot;7048813929&quot;</span>
 
 
-<span class="c1"># define the backend&#39;s name for the IBM&#39;s Qiskit Provider</span>
+<span class="c1"># define the backend&#39;s name for the IBM&#39;s Provider</span>
 <span class="n">backend_name</span> <span class="o">=</span> <span class="s2">&quot;ibmq_manila&quot;</span>
 
 
-<span class="c1"># retrieve the backend from the IBM&#39;s Qiskit Provider</span>
+<span class="c1"># retrieve the backend from the IBM&#39;s Provider</span>
 <span class="n">backend</span> <span class="o">=</span> <span class="n">provider</span><span class="o">.</span><span class="n">get_backend</span><span class="p">(</span> <span class="n">backend_name</span><span class="p">,</span> <span class="n">instance</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">hub</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">group</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">project</span><span class="si">}</span><span class="s2">&quot;</span> <span class="p">)</span>
 </pre></div>
 
@@ -17106,7 +17106,7 @@ class="
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<h3>Version Information</h3><table><tr><th>Qiskit Software</th><th>Version</th></tr><tr><td><code>qiskit-terra</code></td><td>0.24.1</td></tr><tr><td><code>qiskit-aer</code></td><td>0.12.1</td></tr><tr><td><code>qiskit-ibmq-provider</code></td><td>0.20.2</td></tr><tr><td><code>qiskit</code></td><td>0.43.2</td></tr><tr><td><code>qiskit-nature</code></td><td>0.6.2</td></tr><tr><td><code>qiskit-finance</code></td><td>0.3.4</td></tr><tr><td><code>qiskit-optimization</code></td><td>0.5.0</td></tr><tr><td><code>qiskit-machine-learning</code></td><td>0.6.1</td></tr><tr><th>System information</th></tr><tr><td>Python version</td><td>3.10.8</td></tr><tr><td>Python compiler</td><td>GCC 10.4.0</td></tr><tr><td>Python build</td><td>main, Nov 22 2022 08:26:04</td></tr><tr><td>OS</td><td>Linux</td></tr><tr><td>CPUs</td><td>8</td></tr><tr><td>Memory (Gb)</td><td>31.211322784423828</td></tr><tr><td colspan='2'>Wed Aug 02 09:44:00 2023 UTC</td></tr></table>
+<h3>Version Information</h3><table><tr><th>Qiskit Software</th><th>Version</th></tr><tr><td><code>qiskit-terra</code></td><td>0.24.1</td></tr><tr><td><code>qiskit-aer</code></td><td>0.12.1</td></tr><tr><td><code>qiskit-ibmq-provider</code></td><td>0.20.2</td></tr><tr><td><code>qiskit</code></td><td>0.43.2</td></tr><tr><td><code>qiskit-nature</code></td><td>0.6.2</td></tr><tr><td><code>qiskit-finance</code></td><td>0.3.4</td></tr><tr><td><code>qiskit-optimization</code></td><td>0.5.0</td></tr><tr><td><code>qiskit-machine-learning</code></td><td>0.6.1</td></tr><tr><th>System information</th></tr><tr><td>Python version</td><td>3.10.8</td></tr><tr><td>Python compiler</td><td>GCC 10.4.0</td></tr><tr><td>Python build</td><td>main, Nov 22 2022 08:26:04</td></tr><tr><td>OS</td><td>Linux</td></tr><tr><td>CPUs</td><td>8</td></tr><tr><td>Memory (Gb)</td><td>31.211322784423828</td></tr><tr><td colspan='2'>Wed Aug 02 15:24:38 2023 UTC</td></tr></table>
 </div>
 
 </div>
@@ -17148,7 +17148,7 @@ class="
 
 
 <script type="application/vnd.jupyter.widget-state+json">
-{"state": {"01668e08a6704ffb8ea75b52b2bc94ef": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_6c4b6833df114604b204adbc3a89c7d3", "style": "IPY_MODEL_39e306183d0e4b83bd3081298e2cba48", "value": "&lt;h5&gt;Job ID&lt;/h5&gt;"}}, "025935da990147f7bf0d5e7434aa6b65": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_388b96e75cff44f3a126ac4ebe20a4a1", "style": "IPY_MODEL_851497b749e84aa880c02518e81a826a", "value": "&lt;p style='font-family: IBM Plex Sans, Arial, Helvetica, sans-serif; font-size: 20px; font-weight: medium;'&gt;Circuit Properties&lt;/p&gt;"}}, "0a1f91701d2747778a549249e495a7e2": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "0cc86c608f4d43c28859b9a5211bcc08": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"grid_area": "right", "padding": "0px 0px 0px 0px", "width": "70px"}}, "0f522c2867d34720921eb2d8749bfcac": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "1250854997764c71b7dd1b964841b982": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "70px"}}, "3663f9f3de4c4dfc80311f442f91bea1": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "ButtonStyleModel", "state": {"font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "38420d6fc29946b8b34f3a9d89e8c0b8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_999fd2df4b2e40d8be63fe868600983d", "style": "IPY_MODEL_718e9d162448447194137504208e8f86", "value": "&lt;h5&gt;Status&lt;/h5&gt;"}}, "388b96e75cff44f3a126ac4ebe20a4a1": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"margin": "0px 0px 10px 0px"}}, "39e306183d0e4b83bd3081298e2cba48": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "65d7ecb397ae4928a5646c67e80fc99a": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"grid_template_areas": "\n                                       \". . . . right \"\n                                        ", "grid_template_columns": "20% 20% 20% 20% 20%", "width": "100%"}}, "6bb8e016b066412f82615da343583741": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {}}, "6c4b6833df114604b204adbc3a89c7d3": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "190px"}}, "718e9d162448447194137504208e8f86": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "777b426111844b9b987a7f480d047b75": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_b76402b7e09041ed8591b984bff768e6", "style": "IPY_MODEL_0f522c2867d34720921eb2d8749bfcac", "value": "&lt;h5&gt;Backend&lt;/h5&gt;"}}, "7dcdbe083bd44783bdb2465de98e2d3f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "ButtonModel", "state": {"button_style": "primary", "description": "Clear", "layout": "IPY_MODEL_0cc86c608f4d43c28859b9a5211bcc08", "style": "IPY_MODEL_3663f9f3de4c4dfc80311f442f91bea1", "tooltip": null}}, "8158b39d28a449acb5509e525f91c705": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_1250854997764c71b7dd1b964841b982", "style": "IPY_MODEL_0a1f91701d2747778a549249e495a7e2", "value": "&lt;h5&gt;Queue&lt;/h5&gt;"}}, "851497b749e84aa880c02518e81a826a": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "8768e55d515b4048bf8bb9d8c0ff7ea9": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "GridBoxModel", "state": {"children": ["IPY_MODEL_7dcdbe083bd44783bdb2465de98e2d3f"], "layout": "IPY_MODEL_65d7ecb397ae4928a5646c67e80fc99a"}}, "999fd2df4b2e40d8be63fe868600983d": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "95px"}}, "aa0c188f8a464f94ac9346037aa82de5": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HBoxModel", "state": {"children": ["IPY_MODEL_01668e08a6704ffb8ea75b52b2bc94ef", "IPY_MODEL_777b426111844b9b987a7f480d047b75", "IPY_MODEL_38420d6fc29946b8b34f3a9d89e8c0b8", "IPY_MODEL_8158b39d28a449acb5509e525f91c705", "IPY_MODEL_d2a1d78841c2419d9d952bfe57d21ae8"], "layout": "IPY_MODEL_d104f49c808046db875536df3fd61c79"}}, "ae0f31da55414c529b0b1d8b904ee109": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "b76402b7e09041ed8591b984bff768e6": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "145px"}}, "d104f49c808046db875536df3fd61c79": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"margin": "0px 0px 0px 37px", "width": "600px"}}, "d2a1d78841c2419d9d952bfe57d21ae8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_6bb8e016b066412f82615da343583741", "style": "IPY_MODEL_ae0f31da55414c529b0b1d8b904ee109", "value": "&lt;h5&gt;Message&lt;/h5&gt;"}}}, "version_major": 2, "version_minor": 0}
+{"state": {"144ae26c0e9a46319ab03e0c8263c5cb": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_250853245ff9450a889b79eed64000f9", "style": "IPY_MODEL_de5d1a4e7778477e93c647a9ee46e706", "value": "&lt;h5&gt;Backend&lt;/h5&gt;"}}, "1b7e01ab26a7474cac73624a234cdc5b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "1cd6f6d031044b10bfdceea781c59817": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"grid_template_areas": "\n                                       \". . . . right \"\n                                        ", "grid_template_columns": "20% 20% 20% 20% 20%", "width": "100%"}}, "21ba6738417d4c22a8b1b545ea65b078": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "222636307b4c4253a7b59cefb51f40d6": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_727a4331321a4ff09cc37d66a8f53523", "style": "IPY_MODEL_26f78f0de748495e9002d485a86ff42f", "value": "&lt;h5&gt;Job ID&lt;/h5&gt;"}}, "250853245ff9450a889b79eed64000f9": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "145px"}}, "26f78f0de748495e9002d485a86ff42f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "388cf5adcc764a24aa1109d3b00f50f8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "GridBoxModel", "state": {"children": ["IPY_MODEL_b6340ba88d5a49b69976b126d42ad6eb"], "layout": "IPY_MODEL_1cd6f6d031044b10bfdceea781c59817"}}, "3a6cb7f4770447f99be6f7d9c65a6572": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {}}, "3e574070e3274fe5a4b88e0b88a61e15": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "95px"}}, "5cb90d7e36db403cb5a773016fcfdf50": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_a314b14c36c44b86806629ed24ce532a", "style": "IPY_MODEL_6e2ad41e709f4ff9adc14b62c1722be8", "value": "&lt;h5&gt;Queue&lt;/h5&gt;"}}, "62ff977ff0f44425b3114ca2829f11f6": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"margin": "0px 0px 10px 0px"}}, "6e2ad41e709f4ff9adc14b62c1722be8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "727a4331321a4ff09cc37d66a8f53523": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "190px"}}, "95043da6620746d08eda12f75e134010": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HBoxModel", "state": {"children": ["IPY_MODEL_222636307b4c4253a7b59cefb51f40d6", "IPY_MODEL_144ae26c0e9a46319ab03e0c8263c5cb", "IPY_MODEL_b7b748be5c694f7a9beace6857e4cc3b", "IPY_MODEL_5cb90d7e36db403cb5a773016fcfdf50", "IPY_MODEL_d684d258d89f48ca8f30e1be07ac3449"], "layout": "IPY_MODEL_d1be4d1515274e73988a664624cca26f"}}, "a314b14c36c44b86806629ed24ce532a": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"width": "70px"}}, "a5e904843e4440e79fa6b65586f622e4": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_62ff977ff0f44425b3114ca2829f11f6", "style": "IPY_MODEL_de79d65b9e9e4e4cb7668ce008cfe65e", "value": "&lt;p style='font-family: IBM Plex Sans, Arial, Helvetica, sans-serif; font-size: 20px; font-weight: medium;'&gt;Circuit Properties&lt;/p&gt;"}}, "a9996cf653444529bc6ceb34a04125c1": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "ButtonStyleModel", "state": {"font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "b6340ba88d5a49b69976b126d42ad6eb": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "ButtonModel", "state": {"button_style": "primary", "description": "Clear", "layout": "IPY_MODEL_e1fc7fd15cf046928b3dfefe3545ce4d", "style": "IPY_MODEL_a9996cf653444529bc6ceb34a04125c1", "tooltip": null}}, "b7b748be5c694f7a9beace6857e4cc3b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_3e574070e3274fe5a4b88e0b88a61e15", "style": "IPY_MODEL_1b7e01ab26a7474cac73624a234cdc5b", "value": "&lt;h5&gt;Status&lt;/h5&gt;"}}, "d1be4d1515274e73988a664624cca26f": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"margin": "0px 0px 0px 37px", "width": "600px"}}, "d684d258d89f48ca8f30e1be07ac3449": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_3a6cb7f4770447f99be6f7d9c65a6572", "style": "IPY_MODEL_21ba6738417d4c22a8b1b545ea65b078", "value": "&lt;h5&gt;Message&lt;/h5&gt;"}}, "de5d1a4e7778477e93c647a9ee46e706": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "de79d65b9e9e4e4cb7668ce008cfe65e": {"model_module": "@jupyter-widgets/controls", "model_module_version": "2.0.0", "model_name": "HTMLStyleModel", "state": {"description_width": "", "font_size": null, "text_color": null}}, "e1fc7fd15cf046928b3dfefe3545ce4d": {"model_module": "@jupyter-widgets/base", "model_module_version": "2.0.0", "model_name": "LayoutModel", "state": {"grid_area": "right", "padding": "0px 0px 0px 0px", "width": "70px"}}}, "version_major": 2, "version_minor": 0}
 </script>
 
 
